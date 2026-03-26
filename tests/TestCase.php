@@ -2,9 +2,9 @@
 
 namespace Foxen\EloquentRelationshipVisualizer\Tests;
 
+use Foxen\EloquentRelationshipVisualizer\EloquentRelationshipVisualizerServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Foxen\EloquentRelationshipVisualizer\EloquentRelationshipVisualizerServiceProvider;
 
 class TestCase extends Orchestra
 {

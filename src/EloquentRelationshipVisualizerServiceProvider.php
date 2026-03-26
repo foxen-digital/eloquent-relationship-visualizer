@@ -2,9 +2,9 @@
 
 namespace Foxen\EloquentRelationshipVisualizer;
 
+use Foxen\EloquentRelationshipVisualizer\Commands\EloquentRelationshipVisualizerCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Foxen\EloquentRelationshipVisualizer\Commands\EloquentRelationshipVisualizerCommand;
 
 class EloquentRelationshipVisualizerServiceProvider extends PackageServiceProvider
 {
